@@ -9,7 +9,7 @@ score = 0
 
 for i in range (3):
  player_choice = input("Choose rock, paper, scissors: ").lower()
- computer_chioce = random.choice(choices)
+ computer_choice = random.choice(choices)
  print(f"Computer choose: {computer_choice}")
 
  if player_choice == computer_choice:
@@ -22,5 +22,5 @@ for i in range (3):
  else:
       print("You loose this round!\n")
 
-print(f"Game Over! Your total score: {score}\3")
+print(f"Game Over! Your total score: {score}/3")
 print("Thanks for playing! 🚀")
