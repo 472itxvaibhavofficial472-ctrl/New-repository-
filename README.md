@@ -1,3 +1,3 @@
-# New-repository-
-This my first repository, I'm new to GitHub.
 # My First Repository
+This is my first repository.
+I am learning GitHub step by step.
