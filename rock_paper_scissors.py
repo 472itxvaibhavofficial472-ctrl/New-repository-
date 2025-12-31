@@ -52,12 +52,12 @@ while True:
 
  if score > rounds // 2:
     print("Congratulations! You won the game")
- elif score > rounds //2:
+ elif score == rounds //2:
     print("It's a tie!")
  else:
     print("Computer won the game!")
 
- play_again = input("Do you want to play again?" (yes/no): "). lower()
+ play_again = input("Do you want to play again? (yes/no): "). lower()
  if play_again != "yes":
     print ("Thanks for playing")
     break
