@@ -26,13 +26,13 @@ while True:
     print(f"Game Over! Your total score: {score}/{rounds}")
 
     if score > rounds // 2:
-        print("🎉 Congratulations! You won the game!")
+        print("Congratulations! You won the game!")
     elif score == rounds // 2:
-        print("🤝 It's a tie!")
+        print("It's a tie!")
     else:
-        print("😢 Computer won the game!")
+        print("Computer won the game!")
 
     play_again = input("Do you want to play again? (yes/no): ").lower()
     if play_again != "yes":
-        print("Thanks for playing! 🚀")
+        print("Thanks for playing!")
         break
